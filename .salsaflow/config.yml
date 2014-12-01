@@ -5,6 +5,3 @@ jira:
 code_review_tool: "review_board"
 review_board:
   server_url: "https://review.salsitasoft.com"
-scripts:
-  get_version: "scripts/get_version.sh"
-  set_version: "scripts/set_version.sh"
