@@ -1,6 +1,6 @@
 issue_tracker: "jira"
 jira:
-  base_url: "https://jira.salsitasoft.com"
+  server_url: "https://jira.salsitasoft.com"
   project_key: "SFT"
 code_review_tool: "review_board"
 review_board:
