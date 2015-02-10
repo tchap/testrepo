@@ -2,12 +2,12 @@
 #jira:
 #  server_url: "https://jira.salsitasoft.com"
 #  project_key: "SFT"
-#issue_tracker: "pivotal_tracker"
-#pivotal_tracker:
-#  project_id: 525465
-issue_tracker: "sprintly"
-sprintly:
-  product_id: 27068
+issue_tracker: "pivotal_tracker"
+pivotal_tracker:
+  project_id: 525465
+#issue_tracker: "sprintly"
+#sprintly:
+#  product_id: 27068
 
 code_review_tool: "review_board"
 review_board:
