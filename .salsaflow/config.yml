@@ -2,7 +2,7 @@
 # This timestamp is being used by the pre-push hook to check only the commits
 # that happened after so that it is easier to migrate existing projects to SF.
 # You can modify the timestamp manually in case there is a need.
-salsaflow_enabled_timestamp: "2015-02-16 12:12:21.542853564 +0100 CET"
+salsaflow_enabled_timestamp: "2015-02-17T12:36:11.142902641+01:00"
 
 #issue_tracker: "jira"
 #jira:
