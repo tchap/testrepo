@@ -15,7 +15,7 @@ pivotal_tracker:
 #sprintly:
 #  product_id: 27068
 
-code_review_tool: "review_board"
-review_board:
-  server_url: "https://review.salsitasoft.com"
-#code_review_tool: "github"
+#code_review_tool: "review_board"
+#review_board:
+#  server_url: "https://review.salsitasoft.com"
+code_review_tool: "github"
