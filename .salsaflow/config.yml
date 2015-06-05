@@ -4,6 +4,11 @@
 # You can modify the timestamp manually in case there is a need.
 salsaflow_enabled_timestamp: "2015-02-17T12:36:11.142902641+01:00"
 
+versioning:
+  trunk_suffix: "trunk"
+  testing_suffix: "testing"
+  stage_suffix: "client"
+
 #issue_tracker: "jira"
 #jira:
 #  server_url: "https://jira.salsitasoft.com"
