@@ -17,9 +17,9 @@ issue_tracker: "pivotal_tracker"
 pivotal_tracker:
   project_id: 525465
   
-#code_review_tool: "review_board"
-#review_board:
-#  server_url: "https://review.salsitasoft.com"
-code_review_tool: "github"
+code_review_tool: "review_board"
+review_board:
+  server_url: "https://review.salsitasoft.com"
+#code_review_tool: "github"
 
 release_notes_manager: "github"
