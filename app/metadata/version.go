@@ -5,4 +5,4 @@ package metadata
  * Please do not modify it manually.     *
  *****************************************/
 
-const Version = "0.58.0-trunk"
+const Version = "0.59.0-trunk"
