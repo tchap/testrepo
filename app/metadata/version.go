@@ -5,4 +5,4 @@ package metadata
  * Please do not modify it manually.     *
  *****************************************/
 
-const Version = "0.76.0-client"
+const Version = "0.76.0"
