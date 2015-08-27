@@ -5,21 +5,26 @@
 salsaflow_enabled_timestamp: "2015-02-17T12:36:11.142902641+01:00"
 
 versioning:
-  trunk_suffix: "trunk"
+  trunk_suffix:   "trunk"
   testing_suffix: "testing"
-  stage_suffix: "client"
+  stage_suffix:   "client"
 
-#issue_tracker: "jira"
-#jira:
-#  server_url: "https://jira.salsitasoft.com"
-#  project_key: "SFT"
-issue_tracker: "pivotal_tracker"
-pivotal_tracker:
-  project_id: 525465
+#issue_tracker:
+#  module_name: "JIRA"
+#  module_config:
+#    server_url: "https://jira.salsitasoft.com"
+#    project_key: "SFT"
+issue_tracker:
+  module_name: "Pivotal Tracker"
+  module_config:
+    project_id: 525465
   
-code_review_tool: "review_board"
-review_board:
-  server_url: "https://review.salsitasoft.com"
-#code_review_tool: "github"
+#code_review:
+#  module_name: "Review Board"
+#  module_config:
+#    server_url: "https://review.salsitasoft.com"
+code_review:
+  module_name: "GitHub (Code Review)"
 
-release_notes_manager: "github"
+release_notes:
+  module_name: "GitHub (Release Notes)"
