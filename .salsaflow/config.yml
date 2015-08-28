@@ -22,4 +22,4 @@ pivotal_tracker:
 #  server_url: "https://review.salsitasoft.com"
 code_review_tool: "github"
 
-release_notes_manager: "github"
+release_notes: "github"
