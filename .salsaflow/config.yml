@@ -16,6 +16,7 @@ versioning:
 issue_tracker: "pivotal_tracker"
 pivotal_tracker:
   project_id: 525465
+  component_label: "ondrej"
   
 #code_review_tool: "review_board"
 #review_board:
