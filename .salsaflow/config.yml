@@ -10,21 +10,21 @@ versioning:
   stage_suffix:   "client"
 
 #issue_tracker:
-#  module_name: "JIRA"
+#  module_id: "JIRA"
 #  module_config:
 #    server_url: "https://jira.salsitasoft.com"
 #    project_key: "SFT"
-issue_tracker:
-  module_name: "Pivotal Tracker"
+issue_tracking:
+  module_id: "salsaflow.issuetracking.pivotaltracker"
   module_config:
     project_id: 525465
   
 #code_review:
-#  module_name: "Review Board"
+#  module_id: "Review Board"
 #  module_config:
 #    server_url: "https://review.salsitasoft.com"
 code_review:
-  module_name: "GitHub (Code Review)"
+  module_id: "salsaflow.codereview.github"
 
 release_notes:
-  module_name: "GitHub (Release Notes)"
+  module_id: "salsaflow.releasenotes.github"
