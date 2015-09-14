@@ -15,6 +15,7 @@ versioning:
 #  project_key: "SFT"
 issue_tracker: "pivotal_tracker"
 pivotal_tracker:
+  component_label: "ondrej"
   project_id: 525465
   
 #code_review_tool: "review_board"
