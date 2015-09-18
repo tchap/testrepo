@@ -1,0 +1,40 @@
+{
+  "salsaflow_enabled_timestamp": "2015-09-18T13:30:37.20050984+02:00",
+  "active_modules": {
+    "issue_tracking": "salsaflow.issuetracking.pivotaltracker",
+    "code_review": "salsaflow.codereview.github",
+    "release_notes": ""
+  },
+  "configuration": {
+    "salsaflow.codereview.github": {
+      "review_issue_label": "review",
+      "story_implemented_label": "implemented"
+    },
+    "salsaflow.core.git": {
+      "trunk_branch": "develop",
+      "release_branch": "release",
+      "staging_branch": "stage",
+      "stable_branch": "master"
+    },
+    "salsaflow.core.versioning": {
+      "trunk_suffix": "dev",
+      "testing_suffix": "qa",
+      "staging_suffix": "stage"
+    },
+    "salsaflow.issuetracking.pivotaltracker": {
+      "project_id": 525465,
+      "component_label": "",
+      "workflow_labels": {
+        "point_me": "point me",
+        "reviewed": "reviewed",
+        "skip_review": "no review",
+        "tested": "qa+",
+        "skip_testing": "no qa",
+        "skip_release_check_labels": [
+          "dupe",
+          "wontfix"
+        ]
+      }
+    }
+  }
+}
