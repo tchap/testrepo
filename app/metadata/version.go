@@ -5,4 +5,4 @@ package metadata
  * Please do not modify it manually.     *
  *****************************************/
 
-const Version = "0.86.0-dev"
+const Version = "0.86.0-qa"
