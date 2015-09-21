@@ -1,9 +1,9 @@
 {
-  "salsaflow_enabled_timestamp": "2015-09-18T13:30:37.20050984+02:00",
+  "salsaflow_enabled_timestamp": "2015-09-21T17:42:51.202332004+02:00",
   "active_modules": {
-    "issue_tracking": "salsaflow.issuetracking.pivotaltracker",
+    "issue_tracking": "salsaflow.issuetracking.github",
     "code_review": "salsaflow.codereview.github",
-    "release_notes": ""
+    "release_notes": "salsaflow.releasenotes.github"
   },
   "configuration": {
     "salsaflow.codereview.github": {
@@ -21,15 +21,18 @@
       "testing_suffix": "qa",
       "staging_suffix": "stage"
     },
-    "salsaflow.issuetracking.pivotaltracker": {
-      "project_id": 525465,
-      "component_label": "",
+    "salsaflow.issuetracking.github": {
       "workflow_labels": {
-        "point_me": "point me",
+        "approved": "approved",
+        "being_implemented": "being implemented",
+        "implemented": "implemented",
         "reviewed": "reviewed",
         "skip_review": "no review",
-        "tested": "qa+",
+        "passed_testing": "qa+",
+        "failed_testing": "qa-",
         "skip_testing": "no qa",
+        "staged_for_acceptance": "staged",
+        "client_rejected": "client rejected",
         "skip_release_check_labels": [
           "dupe",
           "wontfix"
