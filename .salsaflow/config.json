@@ -22,7 +22,8 @@
       "staging_suffix": "stage"
     },
     "salsaflow.issuetracking.github": {
-      "workflow_labels": {
+      "story_label": "story",
+      "state_labels": {
         "approved": "approved",
         "being_implemented": "being implemented",
         "implemented": "implemented",
@@ -32,12 +33,12 @@
         "failed_testing": "qa-",
         "skip_testing": "no qa",
         "staged_for_acceptance": "staged",
-        "client_rejected": "client rejected",
-        "skip_release_check_labels": [
-          "dupe",
-          "wontfix"
-        ]
-      }
+        "client_rejected": "client rejected"
+      },
+      "skip_release_check_labels": [
+        "dupe",
+        "wontfix"
+      ]
     }
   }
 }
