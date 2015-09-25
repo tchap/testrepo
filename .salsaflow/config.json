@@ -1,5 +1,5 @@
 {
-  "salsaflow_enabled_timestamp": "2015-09-21T17:42:51.202332004+02:00",
+  "salsaflow_enabled_timestamp": "2015-09-25T14:30:21.986326543+02:00",
   "active_modules": {
     "issue_tracking": "salsaflow.issuetracking.github",
     "code_review": "salsaflow.codereview.github",
@@ -39,6 +39,7 @@
         "dupe",
         "wontfix"
       ]
-    }
+    },
+    "salsaflow.releasenotes.github": {}
   }
 }
