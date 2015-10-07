@@ -1,7 +1,7 @@
 {
   "salsaflow_enabled_timestamp": "2015-09-25T14:30:21.986326543+02:00",
   "active_modules": {
-    "issue_tracking": "salsaflow.modules.issuetracking.github",
+    "issue_tracking": "salsaflow.modules.issuetracking.pivotaltracker",
     "code_review": "salsaflow.modules.codereview.github",
     "release_notes": "salsaflow.modules.releasenotes.github"
   },
@@ -39,6 +39,21 @@
         "dupe",
         "wontfix"
       ]
+    },
+    "salsaflow.modules.issuetracking.pivotaltracker": {
+      "project_id": 525465,
+      "component_label": "",
+      "workflow_labels": {
+        "point_me": "point me",
+        "reviewed": "reviewed",
+        "skip_review": "no review",
+        "tested": "qa+",
+        "skip_testing": "no qa",
+        "skip_release_check_labels": [
+          "dupe",
+          "wontfix"
+        ]
+      }
     },
     "salsaflow.modules.releasenotes.github": {}
   }
