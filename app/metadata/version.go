@@ -5,4 +5,4 @@ package metadata
  * Please do not modify it manually.     *
  *****************************************/
 
-const Version = "0.93.0-qa"
+const Version = "0.93.0-stage"
